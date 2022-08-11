@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Taller Practico A</title>
+<link rel="stylesheet" href="css/MartinezLemusTaller1 -CSS.css" />
+</head>
+<body>
+
+    <div id="botones">
+        
+        <div id="Banner">
+            <h1> ¡Bienvenidos a la Biblioteca Ruiseñor!</h1>
+            <h2> Hablenos un poco sobre el libro que desea pedir:</h2>
+        </div>
+
+        <form id="Formulario">
+            <fieldset>
+                <legend> Información sobre el libro </legend>
+
+                <label for="Libro" class="label1"> ¿Que clase de libro desea? </label>
+                <select id="Libro" required> 
+                    <option value="Ciencias"> Ciencias Basicas y Tecnologias.</option>
+                    <option value="Tesis"> Tesis.</option>
+                    <option value="Obras"> Obras Literarias.</option>
+                    <option value="Otros"> Otros Tipos.</option>
+                </select>
+            </fieldset>
+
+            <fieldset>
+                <legend> Información sobre el usuario </legend>
+
+                <label for="Usuario"> ¿Tiene usted alguna clase de carnet? </label>
+                <select id="Usuario" required>
+                    <option value="Estudiante">Tengo carnet de estudiante.</option>
+                    <option value="Docente">Tengo carnet de docente.</option>
+                    <option value="NoTengo">No tengo carnet.</option>
+                </select>
+            </fieldset>
+
+            <button type="button" id="Enviar"> Hacer mi pedido. </button>
+
+        </form>
+
+    </div>
+
+    <div id="InfoJS">
+        <div id="Mensaje">
+            <h3>Ingrese la informacion de arriba</h3>
+        </div>
+    
+        <div id="TablaInfo">
+            <table id="Listado">
+            
+            </table>
+        </div>
+
+    </div>
+
+
+    <script src="js/MartinezLemusTaller1 -JS.js"></script>
+</body>
+</html>
